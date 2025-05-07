@@ -1,0 +1,16 @@
+# Core dependencies
+numpy>=1.20.0
+torch>=1.10.0
+transformers>=4.20.0
+bitsandbytes>=0.35.0  # For quantization support
+sherpa-onnx>=1.0.0  # For STT
+gtts>=2.2.4  # For TTS
+soundfile>=0.10.3  # For audio file handling
+nest_asyncio>=1.5.5  # For running asyncio in Jupyter
+
+# Optional dependencies for voice interaction
+pyaudio>=0.2.11  # Required for microphone access
+librosa>=0.9.0  # Fallback for audio processing if ffmpeg not available
+
+# Recommended but not strictly required
+jupyter>=1.0.0  # For running in notebook environments
